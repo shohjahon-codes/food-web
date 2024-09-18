@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class=" bg-[#252836]">
+    <header class="flex w-[100%] ">
+        <nav class="w-[80px] h-[100vh] fixed bg-[#1F1D2B] mr-[100px]">
+            <ul>
+                <li class=" p-[4px] w-[50px] text-[40px] mb-[33px] rounded-lg text-red-500  hover:text-white hover:bg-[#EA7C69]"><i class='bx bxs-store-alt'></i></li>
+                <li class=" p-[4px] w-[50px] text-[40px] mb-[33px] rounded-lg text-red-500  hover:text-white hover:bg-[#EA7C69]"><i class='bx bx-home' ></i></li>
+                <li class=" p-[4px] w-[50px] text-[40px] mb-[33px] rounded-lg text-red-500  hover:text-white hover:bg-[#EA7C69]"><i class='bx bx-pie-chart-alt' ></i></li>
+                <li class=" p-[4px] w-[50px] text-[40px] mb-[33px] rounded-lg text-red-500  hover:text-white hover:bg-[#EA7C69]"><i class='bx bxs-envelope' ></i></li>
+                <li class=" p-[4px] w-[50px] text-[40px] mb-[33px] rounded-lg text-red-500  hover:text-white hover:bg-[#EA7C69]"><i class='bx bx-bell' ></i></li>
+                <li class=" p-[4px] w-[50px] text-[40px] mb-[33px] rounded-lg text-red-500  hover:text-white hover:bg-[#EA7C69]"><i class='bx bx-cog' ></i></li>
+                <li class=" p-[4px] w-[50px] text-[40px] mb-[33px] rounded-lg text-red-500  hover:text-white hover:bg-[#EA7C69]"><i class='bx bx-exit' ></i></li>
+            </ul>
+        </nav>
+        <div class="menu w-[100%] flex items-center justify-evenly">
+          <div class="text ml-[100px]">
+            <h1 class="text-white text-[52px]">Jaegar Resto</h1>
+           <p class="text-white "> Tuesday, 2 Feb 2021</p>
+          </div>
+          <div class="search flex items-center  bg-blue-950 rounded-lg w-[400px] h-[40px] p-[40px]  ">
+            <i class='bx bx-search-alt text-white'></i>
+            <input type="text" class="border-none pr-[-20px] bg-blue-950 " placeholder="Search for food, coffe, etc..">
+          </div>
+        </div>
+    </header>
+    <section>
+        <div class="catalogs flex ml-[200px] justify-evenly text-white pt-[30px] ">
+ 
+        </div>
+    </section>
+    <section id="catalog-details" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4 ml-[200px]">
+        <!-- Catalog cards will be dynamically added here -->
+      </section>
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
